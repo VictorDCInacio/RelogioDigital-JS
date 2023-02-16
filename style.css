@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+*{
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: #0D5C63;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.relogio{
+    display: flex;
+    width: 50%;
+    height: 250px;
+    background-color: transparent;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border-radius: 8px;
+    color: #8ddde6;
+}
+
+.ponteiros{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 80px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.tempo{
+    font-size: 20px;
+}
